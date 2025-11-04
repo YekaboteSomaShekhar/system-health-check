@@ -6,22 +6,29 @@ The **System Health Check Script** collects and logs key system performance metr
 This project demonstrates automation, shell scripting, and system administration skills — useful for DevOps, system monitoring, and infrastructure management.
 
 ### Features  
-1. Displays current **system date and time**  
-2. Shows **CPU load** and **uptime**  
-3. Reports **memory and disk usage**  
-4. Lists **top 5 memory-consuming processes**  
-5. Checks the **status of key services** (e.g., `nginx`, `ssh`)  
-6. Logs all details to a file named `healthlog.txt` with a timestamp
+1. Displays current **system date and time**.  
+2. Shows **CPU load** and **uptime**.
+3. Reports **memory and disk usage**.  
+4. Lists **top 5 memory-consuming processes**.  
+5. Checks the **status of key services** (e.g., `nginx`, `ssh`).  
+6. Logs all details to a file named `healthlog.txt` with a timestamp.
+
+### How it works
+
+1. The script gathers system details using built-in commands.
+2. Each section appends results to a log file (healthlog.txt).
+3. The log file can be viewed anytime using 'cat healthlog.txt'
+4. Run the script again to add new logs with updated timestamps.
 
 ### Commands Used in the Script
 
 The `healthcheck.sh` script uses the following commands:
 
-- `date` – Display current system date and time  
-- `systeminfo` – Get system uptime (Windows)  
-- `powershell Get-Counter` – Fetch CPU load percentage  
-- `powershell Get-CimInstance` – Show memory usage details  
-- `df -h` – Display disk usage  
-- `powershell Get-Process` – List top memory-consuming processes  
-- `systemctl is-active` – Check service status (nginx, ssh)  
-- Redirection operators (`>>`, `2>/dev/null`) – Log and suppress errors
+- `date` – Display current system date and time.  
+- `systeminfo` – Get system uptime (Windows).  
+- `powershell Get-Counter` – Fetch CPU load percentage.  
+- `powershell Get-CimInstance` – Show memory usage details.  
+- `df -h` – Display disk usage.  
+- `powershell Get-Process` – List top memory-consuming processes.  
+- `systemctl is-active` – Check service status (nginx, ssh).  
+- Redirection operators (`>>`, `2>/dev/null`) – Log and suppress errors.
