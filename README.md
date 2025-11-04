@@ -13,7 +13,7 @@ This project demonstrates automation, shell scripting, and system administration
 5. Checks the **status of key services** (e.g., `nginx`, `ssh`)  
 6. Logs all details to a file named `healthlog.txt` with a timestamp
 
-## Commands Used in the Script
+### Commands Used in the Script
 
 The `healthcheck.sh` script uses the following commands:
 
