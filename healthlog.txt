@@ -1,0 +1,43 @@
+----------------------------------------
+System Health Check - 2025-11-04 14:39:33
+----------------------------------------
+
+Date & Time:
+Tue, Nov  4, 2025  2:39:33 PM
+
+Uptime:
+
+CPU Load from uptime:
+8.87818713298394
+
+Memory Usage free -m:
+
+
+TotalVisibleMemorySize : 16519124
+FreePhysicalMemory     : 8506868
+
+
+
+
+Disk Usage df -h:
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  238G   61G  178G  26% /
+
+Top 5 Memory-Consuming Processes:
+
+Name                  Id        WS
+----                  --        --
+Memory Compression  2680 579469312
+WhatsApp           13636 420220928
+MsMpEng             4448 364580864
+explorer             560 328679424
+chrome              2196 302563328
+
+
+
+Checking Services nginx, ssh:
+nginx is NOT running
+ssh is NOT running
+
+Health check completed successfully at 2025-11-04 14:39:33
+
