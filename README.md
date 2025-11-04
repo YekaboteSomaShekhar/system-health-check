@@ -17,7 +17,7 @@ This project demonstrates automation, shell scripting, and system administration
 
 The `healthcheck.sh` script uses the following commands:
 
-- `date` – Display system date and time  
+- `date` – Display current system date and time  
 - `systeminfo` – Get system uptime (Windows)  
 - `powershell Get-Counter` – Fetch CPU load percentage  
 - `powershell Get-CimInstance` – Show memory usage details  
