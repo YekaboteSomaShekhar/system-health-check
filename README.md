@@ -17,7 +17,7 @@ This project demonstrates automation, shell scripting, and system administration
 
 1. The script gathers system details using built-in commands.
 2. Each section appends results to a log file (healthlog.txt).
-3. The log file can be viewed anytime using 'cat healthlog.txt'
+3. The log file can be viewed anytime using `cat healthlog.txt`
 4. Run the script again to add new logs with updated timestamps.
 
 ### Commands Used in the Script
