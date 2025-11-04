@@ -8,12 +8,12 @@ This project demonstrates automation, shell scripting, and system administration
 ---
 
 ## Features  
-✅ Displays current **system date and time**  
-✅ Shows **CPU load** and **uptime**  
-✅ Reports **memory and disk usage**  
-✅ Lists **top 5 memory-consuming processes**  
-✅ Checks the **status of key services** (e.g., `nginx`, `ssh`)  
-✅ Logs all details to a file named `healthlog.txt` with a timestamp
+1. Displays current **system date and time**  
+2. Shows **CPU load** and **uptime**  
+3. Reports **memory and disk usage**  
+4. Lists **top 5 memory-consuming processes**  
+5. Checks the **status of key services** (e.g., `nginx`, `ssh`)  
+6. Logs all details to a file named `healthlog.txt` with a timestamp
 
 --- 
 
